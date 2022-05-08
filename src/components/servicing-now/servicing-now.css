@@ -1,0 +1,42 @@
+.servicingNow {
+  margin-top: 40px;
+}
+
+.servicingTop {
+  display: flex;
+  justify-content: space-between;
+}
+
+.servicingPatient {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.servicingPatientImg {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 50px;
+}
+
+.servicingPatientRight {
+  display: flex;
+  flex-direction: column;
+}
+
+.servicingPatientName {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.servicingPatientTime {
+  display: flex;
+  align-items: center;
+}
+
+.servicingPatientTimer {
+  display: flex;
+  flex-direction: column;
+}

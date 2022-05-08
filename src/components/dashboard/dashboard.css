@@ -1,0 +1,73 @@
+.dashborad {
+  width: 100%;
+}
+
+.container {
+  display: flex;
+}
+
+.left {
+  flex: 3;
+}
+
+.right {
+  flex: 5;
+}
+
+.totalContainer {
+  display: flex;
+}
+
+.calendarContainer {
+  margin-top: 30px;
+}
+
+.calendar {
+  width: calc(100% - 15px);
+  height: 290px;
+  border-radius: 10px;
+  border: none;
+}
+
+.react-calendar__navigation__arrow {
+  background: steelblue;
+}
+
+.react-calendar__navigation__label {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.react-calendar__tile {
+  height: 30px;
+}
+
+.react-calendar__month-view__weekdays__weekday {
+  font-size: 14px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 700;
+}
+
+.react-calendar__tile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.react-calendar__tile--active {
+  background: steelblue;
+  color: white;
+  border-radius: 5px;
+}
+
+.react-calendar__tile--active:enabled:hover,
+.react-calendar__tile--active:enabled:focus {
+  background: blueviolet;
+  border-radius: 5px;
+}
+
+.react-calendar__tile,
+.react-calendar__month-view__days__day {
+  font-size: 16px;
+}

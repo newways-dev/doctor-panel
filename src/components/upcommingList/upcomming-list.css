@@ -1,0 +1,41 @@
+.upcommingContainer {
+  margin-top: 20px;
+}
+
+.listInfo {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  color: lightslategray;
+}
+
+.pauseList {
+  width: 100px;
+  height: 30px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.upcommingList {
+  overflow-y: scroll;
+  top: 0;
+  max-height: calc(100vh - 500px);
+}
+
+.upcommingListItem {
+  list-style: none;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: steelblue;
+}

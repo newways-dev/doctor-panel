@@ -1,0 +1,67 @@
+.servicingDoctor {
+  margin-top: 95px;
+  display: flex;
+  align-items: center;
+  margin-left: 300px;
+}
+
+.servicingTop {
+  display: flex;
+  justify-content: space-between;
+}
+
+.servicingDoctorLeft {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 50px;
+}
+
+.servicingDoctorImg {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 50px;
+}
+
+.servicingDoctorRight {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.servicingDoctorRightTop {
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.servicingDoctorRightBottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.servicingDoctorName,
+.servicingDoctorStatus,
+.servicingDoctorAction {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.finishButton {
+  border: none;
+  width: 100px;
+  height: 30px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: steelblue;
+}
+
+.finishButton:hover {
+  background-color: blueviolet;
+}

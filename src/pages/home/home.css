@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.wrapper {
+  padding: 0 40px;
+  width: 100%;
+}

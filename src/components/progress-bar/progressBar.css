@@ -1,0 +1,26 @@
+.totalCard {
+  background-color: #faf9f9;
+  display: flex;
+  width: 500px;
+  margin-right: 20px;
+  height: 115px;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 8px;
+  -webkit-box-shadow: -1px 4px 11px -4px #000000;
+  box-shadow: -1px 4px 11px -4px #000000;
+}
+
+.totalCardLeft {
+  width: 80px;
+  height: 80px;
+}
+
+.circularProgressbar {
+  width: 100px;
+}
+
+.totalCardRight {
+  display: flex;
+  flex-direction: column;
+}

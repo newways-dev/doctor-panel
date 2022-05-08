@@ -1,0 +1,47 @@
+.addTodoContainer {
+  margin-top: 30px;
+  width: 100%;
+  background: #faf9f9;
+  border-radius: 8px;
+}
+
+.addTodoWrapper {
+  padding: 30px;
+}
+
+.addTodoTop {
+  display: flex;
+  align-items: center;
+}
+
+.addTodoTitle {
+  font-weight: 700;
+  margin-right: 20px;
+  font-size: 30px;
+}
+
+.addTaskButton {
+  cursor: pointer;
+  font-weight: 500;
+  display: flex;
+  width: 150px;
+  justify-content: space-around;
+}
+
+.addTodoProgress {
+  margin-top: 20px;
+}
+
+.completedTop {
+  display: flex;
+  justify-content: space-between;
+}
+
+.progressBar {
+  margin-top: 15px;
+}
+
+.todosContainer {
+  display: flex;
+  flex-wrap: wrap;
+}

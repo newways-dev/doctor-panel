@@ -1,0 +1,33 @@
+.todoContainer {
+  padding: 0 20px;
+  margin-top: 20px;
+  max-width: 200px;
+  max-height: 100px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.todoTitle {
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.todoInfo {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+.todoPatientImg {
+  border: 2px solid #fff;
+  margin-left: -10px;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.todoTime {
+  margin-left: 40px;
+}
